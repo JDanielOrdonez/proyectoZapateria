@@ -1,0 +1,110 @@
+body{
+  background: #fff; 
+}
+
+
+
+ body main .ubicacion {
+      background: #fff;
+      padding: 60px 0;
+      overflow: hidden;   
+      border-radius: 5px;    
+    }
+    body main .contenedor{
+      padding: 20px;
+    }
+      body main .ubicacion .titulo {
+        font-family: Bookman Old Style;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 40px;         
+      }
+      body main .ubicacion .direccion {
+        width: 50%;
+        float: left;
+        text-align: left; }
+        body main .ubicacion .direccion .calle {
+          margin-bottom: 15px; 
+        }
+      body main .ubicacion .horarios {
+        float: right;
+        width: 50%;
+        text-align: right;
+        overflow: hidden; 
+      }
+        body main .ubicacion .horarios .entre-semana,
+        body main .ubicacion .horarios .fin-semana {
+          width: 50%;
+          float: left;
+          text-align: center; 
+        }
+        body main .ubicacion .horarios h4 {
+          text-align: center;
+          margin-bottom: 20px; 
+        }
+header nav{
+  background-color: #183052;
+}        
+header nav .navbar-brand{
+  color: #fff;
+}
+header nav .svg{
+  width: 30px;
+}
+header nav .svg img{
+  width: 100%;
+}
+
+.grande{
+  border-radius: 150px;
+}
+
+.carb{
+  border-radius: 150px;
+  border: none;
+  
+}
+
+
+body footer {
+    background: #000; 
+    width: 100%;
+  }
+body footer .copyright {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff; 
+  }
+.imagen{
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.imagen:hover{
+  transform: scale(1.1,1.1);
+  /*filter: inve
+  .irt(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);*/
+}
+
+
+
+/*Descripcion*/
+main .row .descript ol{
+  list-style: none; 
+}
+main .row .descript ol a{
+  padding: 10px;  
+  color: #000;
+  text-decoration: none;
+}
+main .row .descript ol li a:hover{
+  background-color: #dddada;
+  border-radius: 10px;
+}
+main .row .descript ol li a:active{
+  background-color: #dddada;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
