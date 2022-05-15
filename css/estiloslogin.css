@@ -1,0 +1,86 @@
+*{
+	padding: 0;	/*eliminar margenes internos por defecto*/
+	margin: 0;	/*eliminar margenes Externos por defecto*/
+	-webkit-box-sizing:border-box;		/*siempre ponerlo en todas mis paginas web*/
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+	/*background: #f2f2f2;*/
+	background: #f2f2f2 url("../img/bg.jpg");	
+}
+.head{
+	text-align: center;
+	font-family: Yu Gothic UI Semibold, sans-serif;
+	font-size: 16px;
+	padding-top: 30px;
+}
+.logo{
+	width: 70px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.formularioo {
+	background: #fff;
+	width: 350px;
+			/*arriba y abajo, auto: centrar horizontalmente*/
+	margin: 20px auto;*/	
+	margin: 20px;	/*margen exterior*/
+	padding: 1px 30px 20px 20px;	/*margen interior*/
+	border-radius: 10px;	/*bordes de todo el contenedor*/
+}
+.formularioo input{
+	display: block;	/*para que cada recuadro se ponga uno sobre otro*/
+}
+/*seleccionar y modificar todos los inputs y sus diferentes tipos*/
+.formularioo input[type="password"],	/*acceder a los inputs de tipo texto o el que sea*/
+.formularioo input[type="email"],
+.formularioo input[type="text"]{
+	outline:none;
+	width: 100%;
+	padding-bottom: 5px;
+	margin-bottom: 40px;		/*margen hacia abajo (separamiento entre cuadritos)*/	
+	border: 0;
+	border-bottom: 1px solid #ccc;	/*el borde azulito*/
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.formularioo input[type="submit"]{
+	width: 250px;		/*ancho*/
+	margin:0 auto;		
+	background: none;	/*le quita el fondo por que le pondra un borde*/
+	background: rgba(210, 101, 167);
+	padding: 10px;
+	cursor: pointer; /*cambiar el tipo de cursor que se pone al pasar el mouse*/
+	font-size: 16px;
+	border-radius: 15px;	/*bordes redondeados*/
+	border:0;
+	color: #fff;
+	margin-bottom: 100px;
+	
+}
+.formulario .error ul{
+	padding: 0 15px;
+	color: #fff;
+}
+.formulario .error ul li{
+	margin-bottom: 16px;
+	color: #fff;
+}
+.enlace{
+	font-family: Trebuchet MS;
+	color: #828282;
+}
+.enlace:hover{
+	color: blue;
+	text-decoration: none;
+}
+/*CAMBIAR BOTON AL PASAR EL MOUSE*/
+.formularioo input[type="submit"]:hover{
+	
+	opacity: .8;
+
+}
